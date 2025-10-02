@@ -8,3 +8,9 @@ Route::get('/', function () {
 Route::get('/attendance/index', function () {
     return view('attendance.index');
 });
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard.index');
+});
+Route::get('/admin/employee', function () {
+    return view('admin.employee.index');
+});
